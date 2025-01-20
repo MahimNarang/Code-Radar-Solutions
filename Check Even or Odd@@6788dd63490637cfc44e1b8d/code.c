@@ -5,7 +5,7 @@ int main()
     scanf("%d",&a);
     if(a%2==0)
         printf("Even");
-    if(i%2!=0)
+    if(a%2!=0)
         printf("odd");
     
 }
