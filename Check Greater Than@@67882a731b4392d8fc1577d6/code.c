@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int a,b;
-    if(a>b && b<a){
+    int n1,n2;
+    if(n1>n2){
         printf("True");
     }
     else{
