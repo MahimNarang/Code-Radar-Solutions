@@ -6,9 +6,9 @@ int main()
     printf("Name: %s",a);
     int b;
     scanf("%d",&b);
-    printf("Age: %d",b);
+    printf("\nAge: %d",b);
     char c[100];
     scanf("%s",c);
-    printf("Hobby: %s",c);
+    printf("\nHobby: %s",c);
     return 0;
 }
