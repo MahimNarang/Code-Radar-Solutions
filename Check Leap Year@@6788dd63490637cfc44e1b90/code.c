@@ -6,7 +6,7 @@ int main()
     if(n%4==0 && n%400==0){
         printf("Leap Year");
     }
-    else if(a%100!=0){
+    else if(n%100!=0){
         printf("Not a Leap Year");
     }
     return 0;
