@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main() {
     int a;
-    if(a%a==1);{
+    scanf("%d",&a);
+    if(a%a==1){
         printf("Prime")
     }
     else{
