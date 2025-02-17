@@ -3,19 +3,23 @@
 int main()
 {
     char x;
-    int a,b;
+    int a,b,c;
     scanf("%d %d %c",&a,&b,&x);
     if(x =='+'){
-        printf(a+b);
+        c=a+b;
+        printf(c);
     }
     else if(x=='-'){
-        printf(a-b);
+        c=a-b;
+        printf(c);
     }
     else if(x=='*'){
-        printf(a*b);
+        c=a*b;
+        printf(c);
     }
     else{
-        printf(a/b);
+        c=a/b;
+        printf(c);
     }
     return 0;
 }
