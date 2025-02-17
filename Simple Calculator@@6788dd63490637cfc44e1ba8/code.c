@@ -4,15 +4,14 @@ int main()
 {
     char x;
     int a,b;
-    scanf("%d%d",&a,&b);
-    scanf("%c",&x);
-    if(x=='+'){
+    scanf("%d %d %c",&a,&b,&x);
+    if(x =='+'){
         printf(a+b);
     }
     else if(x=='-'){
         printf(a-b);
     }
-   else if(x=='*'){
+    else if(x=='*'){
         printf(a*b);
     }
     else{
