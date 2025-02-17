@@ -4,7 +4,7 @@ int main()
     float a,b;
     char x;
     scanf("%f%f",&a,&b);
-    scanf(" %c",&x);
+    scanf("%c",&x);
     switch(x){
         case '+':
         printf("%.0f",x+y);
