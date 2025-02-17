@@ -3,15 +3,15 @@ int main()
 {
     char x;
     scanf("%c",&x);
-    if(x==r){
+    if(x=='r'){
         printf("Stop");
     }
-    else if(x==g){
+    else if(x=='g'){
         printf("Go");
     }
-    else if(x==y)
+    else if(x=='y')
     {
-        printf("Slow Down")
+        printf("Slow Down");
     }
     else{
         printf("Invalid input");
