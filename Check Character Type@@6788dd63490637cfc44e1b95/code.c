@@ -7,10 +7,10 @@ int main()
     {
         printf("Vowel");
     }
-    else if(x>='a'&&x<='z'||x>='A'&&x<=Z)
+    else if(x>='a'&&x<='z'||x>='A'&&x<='Z')
     {
         printf("Consonant");
     }
-    
+
     return 0;
 }
