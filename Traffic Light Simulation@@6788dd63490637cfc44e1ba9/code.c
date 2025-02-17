@@ -3,13 +3,13 @@ int main()
 {
     char x;
     scanf("%c",&x);
-    if(x=='r'){
+    if(x=='R'){
         printf("Stop");
     }
-    else if(x=='g'){
+    else if(x=='G'){
         printf("Go");
     }
-    else if(x=='y')
+    else if(x=='Y')
     {
         printf("Slow Down");
     }
