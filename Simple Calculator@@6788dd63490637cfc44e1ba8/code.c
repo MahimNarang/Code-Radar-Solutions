@@ -5,17 +5,22 @@ int main()
     char x;
     scanf("%f%f", &a, &b);
     scanf(" %c",&x);
-    if(x =='+'){
-        printf("%f",a+b)
-    }
-    else if(x=='-'){
-        printf("%f",a-b);
-    }
-    else if(x=='*'){
-        printf("%f",a*b);
-    }
-    else{
-        printf("%f",a/b);
+    switch(x){
+        case '+':
+        printf("%.0f",x+y);
+        break;
+        case '-':
+        printf("%.0f",x-y);
+        break;
+        case '*':
+        printf("%.0f",x*y);
+        break;
+        case '/':
+        if(y>0){
+            printf("%.0f",x/y);
+        }else{
+            printf("error");
+        }
     }
     return 0;
 }
