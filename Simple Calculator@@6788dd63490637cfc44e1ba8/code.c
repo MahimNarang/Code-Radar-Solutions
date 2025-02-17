@@ -7,19 +7,19 @@ int main()
     scanf("%d %d %c", &a, &b, &x);
     if(x =='+'){
         c=a+b;
-        printf("%d",c);
+        printf("%f",c);
     }
     else if(x=='-'){
         c=a-b;
-        printf("%d",c);
+        printf("%f",c);
     }
     else if(x=='*'){
         c=a*b;
-        printf("%d",c);
+        printf("%f",c);
     }
     else{
         c=a/b;
-        printf("%d",c);
+        printf("%f",c);
     }
     return 0;
 }
